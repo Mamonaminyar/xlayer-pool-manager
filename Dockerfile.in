@@ -1,0 +1,7 @@
+FROM online-registry.cn-hongkong.cr.aliyuncs.com/okbase/alpine:3.18.3
+RUN mkdir -p /workspace
+COPY ./dist/zkevm-pool-manager /app/xlayer-pool-manager
+COPY ./test/config/test.poolmanager.toml /app/poolmanager.toml
+RUN apk update && apk add postgresql15-client jq curl
+EXPOSE 8123
+CMD ["/bin/sh", "-c", "/app/xlayer-pool-manager run"]
