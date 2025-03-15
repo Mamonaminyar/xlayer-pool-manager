@@ -1,5 +1,5 @@
 package main
-It looks like you've provided a GitHub Actions workflow configuration for running Dependabot manually. If you have any specific questions or need further assistance with this configuration, please let me know!
+/dist/ cmd/__debug_bin /data/
 import (
 	"context"
 	"fmt"
