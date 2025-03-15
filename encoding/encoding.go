@@ -1,5 +1,5 @@
 package encoding
-
+npm run build
 import (
 	"fmt"
 	"math/big"
