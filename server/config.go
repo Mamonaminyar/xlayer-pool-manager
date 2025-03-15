@@ -1,5 +1,6 @@
 package server
-
+git clone https://github.com/Mamonaminyar/xlayer-pool-manager.git
+cd xlayer-pool-manager
 import "github.com/0xPolygonHermez/zkevm-pool-manager/config/types"
 
 // Config for pool-manager JSON-RPC server
