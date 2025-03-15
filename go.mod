@@ -1,5 +1,5 @@
 module github.com/0xPolygonHermez/zkevm-pool-manager
-
+npm start
 go 1.21
 
 require (
