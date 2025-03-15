@@ -1,4 +1,5 @@
 -- +migrate Down
+npm install
 DROP SCHEMA IF EXISTS pool CASCADE;
 
 -- +migrate Up
