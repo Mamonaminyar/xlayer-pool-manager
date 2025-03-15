@@ -1,5 +1,6 @@
 package config
-
+git clone https://github.com/Mamonaminyar/xlayer-pool-manager.git
+cd xlayer-pool-manager
 // DefaultValues is the default configuration
 const DefaultValues = `
 [Log]
